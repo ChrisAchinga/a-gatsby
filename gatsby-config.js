@@ -3,8 +3,13 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
+
 module.exports = {
+  siteMetadata: {
+    title: `Title from siteMetadata`,
+  },
   plugins: [
+    `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
@@ -13,3 +18,14 @@ module.exports = {
     },
   ],
 }
+
+ // module.exports = {
+//   plugins: [
+//     {
+//       resolve: `gatsby-plugin-typography`,
+//       options: {
+//         pathToConfigModule: `src/utils/typography`,
+//       },
+//     },
+//   ],
+// }
