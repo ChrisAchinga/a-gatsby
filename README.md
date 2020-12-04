@@ -1,1 +1,0 @@
-# A Gatsby Tutorial Clone
